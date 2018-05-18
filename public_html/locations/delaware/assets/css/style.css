@@ -1,0 +1,577 @@
+/*!*purple: #623f98*!*/
+/*light purple: #9572CB*/
+/*!*blue: #27a9e1*!*/
+/*light blue: #a2d0fd*/
+/*dark gray: #505050*/
+/*gray: #BEBEBE*/
+/*light gray: #D3D3D3*/
+
+html {
+    position: relative;
+    min-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+body {
+    /* Margin bottom by footer height */
+    /*margin-bottom: 30px;*/
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Raleway', sans-serif;
+    color: #636c72;
+}
+
+a:hover {
+    text-decoration: underline !important;
+    text-decoration-color: #636c72 !important;
+    /*color: inherit;*/
+    color: #636c72;
+}
+
+.container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.dark-purple-text {
+    color: #623f98;
+}
+
+.link-more {
+    display: none;
+}
+
+.jumbotron-home {
+    background: url("../../../../assets/img/Pathogend-purple-jumbotron.jpg");
+    background-size: cover;
+    background-color: #fff;
+}
+/*-------------------
+Services page styling
+--------------------*/
+/*.services-row{*/
+    /*background: #D3D3D3;*/
+/*}*/
+
+.services-faq{
+    background: #D3D3D3;
+}
+
+/*-------------------
+About page styling
+--------------------*/
+#aboutCaption {
+    color: #ffffff;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    width: 70%;
+    background: #623f98;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+#aboutCaptionMobile {
+    color: #ffffff;
+    /*position: absolute;*/
+    /*bottom: 5%;*/
+    /*right: 1%;*/
+    width: 100%;
+    background: green;
+    padding: 10px 7px 10px 10px;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    /*padding-top: 7px;*/
+    /*padding-bottom: 10px;*/
+}
+
+.servicesPic {
+    width: 100%;
+    height: auto;
+}
+
+#aboutUs {
+    background: #623f98;
+    color: #ffffff;
+}
+
+.btn-purple {
+    background: #623f98;
+    color: #ffffff;
+}
+
+#healthcare {
+    background: #623f98;
+    color: #ffffff;
+}
+
+#firstAboutSection {
+    background-color: #623f98;
+}
+
+#ourTeam {
+    background-color: #D3D3D3;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#schools-contact-us {
+    background-color: #bebebe;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#school-germs-list {
+    background-color: #9572cb;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*#whatWeDo {*/
+    /*background-color: ghostwhite;*/
+    /*color: black;*/
+    /*padding-top: 50px;*/
+    /*padding-bottom: 100px;*/
+/*}*/
+
+#whyWeDoThis {
+    /*recommend keeping the color dark and background light for easier reading*/
+    background-color: ghostwhite;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+/*-------------------
+Contact page styling
+--------------------*/
+
+.jumbotron-header {
+    background: url("../../../assets/img/pathogend-jumbotron.jpg") center; 
+    background-size: cover;
+    background-color: #fff;
+    height: 60vh;
+}
+
+#contactUsImage {
+    opacity: 0.3;
+    filter: blur(5px);
+    filter: grayscale(60%);
+    filter: contrast(100%);
+}
+
+#contactUsCaption {
+    color: #000000;
+    position: absolute;
+    top: 0px;
+    right: 15%;
+    width: 70%;
+    /*background: green;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+
+}
+
+#contactUsCaptionMobile {
+    color: #ffffff;
+    /*position: absolute;*/
+    /*bottom: 5%;*/
+    /*right: 1%;*/
+    width: 100%;
+    background: green;
+    padding: 10px 7px 10px 10px;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    /*padding-top: 7px;*/
+    /*padding-bottom: 10px;*/
+}
+
+/*#contactUsContainer {*/
+    /*background-color: ghostwhite;*/
+/*}*/
+
+.lastChanceCTA {
+    margin-left: 37%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lastChanceContainer {
+    background: linear-gradient(to bottom right, green, ghostwhite);
+}
+
+/*-------------------
+Navbar custom styling
+--------------------*/
+.navbar {
+    z-index: 9999;
+    margin-bottom: 0;
+    /*height: 125px;*/
+    background-color: #fff;
+    border-bottom: 1px solid #d3d3d3;
+    font-size: small;
+    color: #2b2b2c;
+}
+
+.nav-link {
+    width: 110px;
+    padding: 0px;
+    font-weight: bold;
+    color: #636c72 !important;
+    text-align: center;
+    font-size: small;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #ffffff;
+}
+
+.nav-item {
+    margin-top: 20px;
+}
+
+#callnow {
+    /*margin-top: 20px;*/
+    color: #623f98;
+    font-size: 15px;
+}
+
+#callnow a {
+    font-size: 15px;
+    color: #2b2b2c;
+}
+
+#callnowmobile a {
+    font-size: large;
+    color: #623f98;
+    margin-right: 0;
+}
+
+.consultation {
+    font-size: large;
+}
+
+/*-------------------
+Footer custom styling
+--------------------*/
+.footer {
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    line-height: .75em;
+}
+
+.tagline {
+    text-align: center;
+}
+
+.footer p {
+    font-size: medium;
+}
+
+.equal p {
+    font-size: medium;
+}
+
+.contact {
+    background-color: #623f98;
+    color: #fff;
+    padding: 15px;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+a.footerlink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerBlogLink {
+    color: #505050;
+}
+
+.footerBlogLink:hover {
+    color: #505050 !important;
+}
+
+.about, .follow {
+    background-color: #a2d0fd;
+    color: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 15px;
+}
+
+.fa-2x {
+    color: #fff;
+}
+
+.purple-background {
+    background-color: #9572CB;
+}
+
+.gray-background {
+    background-color: #BEBEBE;
+}
+
+.blue-background {
+    background-color: #a2d0fd;
+}
+
+.cardRow {
+    color: #ffffff;
+    border: none;
+    align-content: center;
+}
+
+.cardRowBackground {
+    background: url("../img/germs-abstract.jpeg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+
+}
+
+.blueCard {
+    background-color: rgba(162, 208, 253, 0.8);
+    border-radius: 0;
+}
+.purpleCard {
+    background-color: rgba(149, 114, 203, 0.8);
+    border-radius: 0;
+}
+
+.grayCard {
+    background-color: rgba(190, 190, 190, 0.8);
+    border-radius: 0;
+}
+
+.card-title, .card-subtitle, . card-text {
+    opacity: 1;
+}
+
+/*-------------------
+Home page styling
+--------------------*/
+.homepage-jumbo {
+    background-image: url("../../../assets/img/pathogend-jumbotron.jpg");
+    background-size: cover;
+    background-color: #fff;
+}
+
+.home p, .content p {
+    font-size: large;
+}
+
+#homeabout {
+    font-size: medium;
+}
+
+.gray-text {
+    color: #505050;
+}
+
+/*-------------------
+Content custom styling
+--------------------*/
+a#link {
+    color: #623f98;
+    font-weight: bold;
+}
+
+.badges img {
+    display: inline;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+.contactform img {
+    vertical-align: top;
+}
+
+#contact-us-frames {
+    padding: 20px;
+}
+
+.contentimg {
+    float: right;
+    padding-left: 20px;
+}
+
+.disclaimer {
+    font-size: smaller;
+}
+
+.fa-bullseye, .purpleicon, a#contactus-text, .purple-text {
+    color: #9572cb;
+}
+
+.promise-photo {
+    padding: 0px;
+}
+
+.promise-space {
+    background-color: #bebebe;
+}
+
+#residentialimage {
+    float: right;
+    margin-left: 10px;
+}
+
+/*-------------------
+Media queries
+--------------------*/
+
+@media only screen and (min-width: 1100px) {
+    .navbar-nav {
+        margin-left: 30px;
+    }
+
+    .equal {
+        display: flex;
+        display: -webkit-flex;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    #logo1 {
+        margin-top: 10px;
+        height: auto;
+        max-width: 200px;
+    }
+
+    #navbarLogo1 {
+        width: 100px;
+    }
+
+    #jumbotron {
+        background-size: 100% 100%;
+    }
+
+    .row {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .row > .col-md-3 {
+        width: calc(100% / 3);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row > .col-md-3 > p {
+        margin-top: auto;
+    }
+
+    .row:before {
+        content: none;
+    }
+
+    .our-team-pic {
+        height: 233px;
+        width: 232px;
+    }
+
+    .our-team-row {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    /*.navbar-collapse {*/
+    /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);*/
+    /*background-color: #0c2442;*/
+    /*color: #f6a738;*/
+    /*margin-top: 50px;*/
+    /*text-align: center;*/
+    /*}*/
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    /*changes color of links in mobile navbar*/
+    .navbar-light .navbar-nav .nav-link {
+        color: #ffffff;
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /*.collapse.in{*/
+    /*display:block !important;*/
+    /*}*/
+    #logo1 {
+        height: auto;
+        max-width: 220px;
+    }
+
+    .jumbotron {
+        padding-top: 5px;
+    }
+
+    #jumbotron {
+        background-size: cover;
+    }
+
+    .contact h3, .contact p, .about h3, .about p, .follow h3, .follow p {
+        margin: 0;
+    }
+
+    .acclist {
+        list-style: none;
+        margin-right: 20px;
+    }
+
+    .lastChanceCTA {
+        margin-left: 18% !important;
+    }
+
+    .our-team-pic {
+        padding-bottom: 10px;
+    }
+
+    .thumbnail img {
+        width: auto;
+        height: 120px;
+        display: block;
+    }
+}
